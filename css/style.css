@@ -6,6 +6,10 @@
  * Made By MaterializeCSS.com
  */
 
+body {
+  font-size: 100%;
+}
+
 nav ul a,
 nav {
   color: #444;
@@ -50,10 +54,6 @@ a.brand-logo-btn:visited {
 #logo-container {
   padding-left: 10px;
   padding-right: 10px;
-}
-
-p {
-  line-height: 2rem;
 }
 
 .sidenav-trigger {
@@ -118,8 +118,8 @@ footer.page-footer {
   margin-left: 10px;
   margin-right: 10px;
 }
-.pcard {
-  font-size: 17px;
+.card-content {
+  margin: 10px;
 }
 
 #download-button {
@@ -134,17 +134,22 @@ h5 {
   font-weight: bold;
 }
 
-#tab1,
-#tab2,
-#tab3 {
-  height: 350px;
+.start {
+  height: 375px;
+  width: auto;
+}
+
+p {
+  font-size: large;
+  line-height: 2rem;
 }
 
 #tab1P,
 #tab2P,
 #tab3P,
 #tab4P {
-  height: 300px;
+  height: 275px;
+  width: 275px;
 }
 
 .tab3P {
@@ -172,18 +177,17 @@ h5 {
 }
 
 .port {
-  width: 300px;
-  height: 275px;
+  height: 250px;
   position: absolute;
   z-index: 0;
 }
 
-li img {
+/* li img {
   width: 70%;
   margin-bottom: 5px;
 }
 
-/* .list {
+.list {
   margin-bottom: 15px;
 }
 
@@ -195,13 +199,13 @@ li img {
 .contact-card {
   width: 60%;
   margin-left: 20%;
+  margin-right: 20%;
 }
 
 .ccard {
   font-size: 20px;
   font-weight: bold;
-  text-align: left;
-  padding-left: 20%;
+  padding: 5%;
 }
 
 .border {
@@ -211,26 +215,30 @@ li img {
 .contact {
   color: black;
   text-align: start;
-  font-size: 17px;
+  font-size: 18px;
   padding-bottom: 15px;
   padding-left: 20px;
   padding-right: 20px;
 }
 
-.pres {
-  font-size: medium;
-  /* text-align: center; */
+.middle {
+  color: black;
+  text-align: start;
+  padding: 10px 0;
+  margin: 0 5px;
 }
 
 .fa-print {
   padding: 5px 0;
   margin-left: 3%;
 }
-/* .print {
-   float: right;
-   /* padding-bottom: 110px; */
-/* } */
-/* Media Queries */
+
+.card-action {
+  font-size: medium;
+  margin-top: 10px;
+}
+
+/* Media Queries*/
 
 @media only screen and (max-width: 992px) {
   .parallax-container .section {
@@ -240,10 +248,153 @@ li img {
   #index-banner .section {
     top: 10%;
   }
+
+  .parallax-intro {
+    min-height: 650px;
+  }
+
+  .parallax-about {
+    min-height: 1500px;
+  }
+
+  .parallax-portfolio {
+    min-height: 2600px;
+  }
+
+  .parallax-contact {
+    min-height: 725px;
+  }
+
+  .parallax-resume {
+    min-height: 1800px;
+  }
+
+  .parallax-list {
+    min-height: 2050px;
+  }
+
+  .intro {
+    margin: 0 auto 0 50%;
+  }
+
+  .about-card {
+    margin: 0 auto;
+    margin: 0 auto;
+  }
+
+  #about-img {
+    width: 40%;
+    height: auto;
+  }
+
+  .contact-card {
+    margin: 0 auto;
+    width: auto;
+  }
+
+  .start {
+    height: 400px;
+    width: auto;
+  }
+
+  #tab1P,
+  #tab2P,
+  #tab3P,
+  #tab4P {
+    height: 300px;
+    width: 300px;
+  }
+
+  .tab3P {
+    font-size: 19px;
+    line-height: 2rem;
+  }
+
+  .work {
+    border-bottom: 0;
+    background-color: #26a69a;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    bottom: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 90%;
+    margin-bottom: 0;
+    z-index: 1;
+  }
+
+  .port {
+    height: 275px;
+    position: relative;
+    z-index: 0;
+  }
 }
 
 @media only screen and (max-width: 600px) {
   #index-banner .section {
     top: 0;
+  }
+
+  .parallax-container .section {
+    position: absolute;
+    /* top: 10%; */
+  }
+  #index-banner .section {
+    top: 5%;
+  }
+
+  .parallax-intro {
+    min-height: 700px;
+  }
+
+  .parallax-about {
+    min-height: 2000px;
+  }
+
+  .parallax-portfolio {
+    min-height: 3500px;
+  }
+
+  #tab1P,
+  #tab2P,
+  #tab3P,
+  #tab4P {
+    margin: 0 auto;
+    margin-bottom: 5%;
+  }
+
+  .parallax-list {
+    min-height: 1700px;
+  }
+
+  .parallax-resume {
+    min-height: 1200px;
+  }
+
+  .intro {
+    margin: 0 auto;
+  }
+
+  .about-card {
+    margin: 0 5% auto 0;
+  }
+
+  #about-img {
+    width: 40%;
+    height: auto;
+  }
+
+  .contact-card {
+    margin: 0 auto;
+    width: auto;
+  }
+
+  .start {
+    height: 400px;
+    width: auto;
+  }
+  .ccard {
+    padding-left: 5%;
   }
 }
