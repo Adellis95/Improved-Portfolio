@@ -4,13 +4,14 @@
 
 My Application was designed to take a previous portfolio assignment and enhance it to be employer competitive. I created a stylized card with the intention to make it easier for employers to navigate to my LinkedIn and Github profile. I also used materialize for formatting, styling, mobile compatability and to create a parallax effect on the different htmls to make my portfolio stand out.
 
-- ['LinkedIn'](https://www.linkedin.com/in/Austin-David-Ellis)
-- ['Portfolio Github](https://github.com/Adellis95/Improved-Portfolio)
-- ['Portfolio Github IO'](https://adellis95.github.io/Improved-Portfolio/)
+- [LinkedIn Profile](https://www.linkedin.com/in/Austin-David-Ellis)
+- [Portfolio Github IO](https://adellis95.github.io/Improved-Portfolio/)
 
 ## Table of Contents
 
--[Installation](#installation) -[Features](#features) -[License](#license)
+- [Installation](#installation)
+- [Features](#features)
+- [License](#license)
 
 ## Installation
 
